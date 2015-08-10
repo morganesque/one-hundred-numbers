@@ -1,0 +1,57 @@
+body {
+    font-family: 'Short Stack', cursive;
+    background: transparent url('body.gif') repeat scroll left top;
+    color:rgba(10,10,0,0.76);;
+}
+.main {
+    width:960px;
+    margin:0 auto;
+}
+.top h1, .top p {
+    float:left;            
+    margin:0 0 0 0;
+    height:40px;
+    line-height:40px;
+    vertical-align:middle;
+}
+.flash {
+    margin-top:10px;
+    border-top:1px solid #CCC;
+    border-bottom:1px solid #CCC;
+    padding:10px 0;
+}
+.clearfix:before, .clearfix:after { content: "\0020"; display: block; height: 0; overflow: hidden; }  
+.clearfix:after { clear: both; }  
+.clearfix { zoom: 1; }
+.col {
+    margin:0 2%;
+    width:46%;
+    padding:0;
+    float:left;
+}        
+.col p {
+    margin-bottom:1em;
+}
+a:link, a:visited {
+    color:#0000B1;
+}
+a:hover, a:active {
+    color:#FF0000;
+}
+h2 {
+    margin:1em 0 0.5em 0;
+}
+.flash-error {
+    height:460px;
+    width:50%;
+    margin:40px auto;
+}
+.foot {
+    margin-top:1em;
+    border-top:1px solid #CCC;
+    padding:10px 0; 
+}
+.foot p {
+    margin:0 2%;
+    font-size:0.75em;
+}
